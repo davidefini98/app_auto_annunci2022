@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
-        <img src="storage\app\assets\5Kr5OzqrbQDX1DqKPwm0os-24bb5d45e543bcf0e567e6e1b7299a09-eyJwYXRoIjoiXC9wdWJsaWNcL3VwbG9hZFwvc2NyZWVuc1wvNTBcL2U5MmU2OGM2Zjc3NGVjZWZlYzI5OTE0MDdiNWRjOWVkLTE1Njk1OTEyMDAuanBn.jpg" width="30" height="30" alt="">
+        <img src="storage\assets\auto_scout.png" width="80" height="50" alt="">
     </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
