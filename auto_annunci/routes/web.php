@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\InsertionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,11 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::controller(InsertionController::class)->group(function () {
+    Route::get('/newInsertion/{user}', 'show')->name('new.insert');
+    Route::post('/orders', 'store');
+});
 
 require __DIR__.'/auth.php';
 
